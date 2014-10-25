@@ -13,7 +13,7 @@ namespace GeoChat.XamarinForms
 
 		public void back_Clicked(object sender, EventArgs ea)
 		{
-			this.Navigation.PushAsync (new MainPage ());
+			//this.Navigation.PopAsync (new MainPage ());
 		}
 	}
 }

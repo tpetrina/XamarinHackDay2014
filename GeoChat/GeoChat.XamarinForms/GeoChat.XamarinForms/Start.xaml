@@ -7,11 +7,6 @@
 		Font = "48"
 		/>
 
-		<Button
-			x:Name = "back"
-			Text = "Back"
-			Clicked = "back_Clicked"
-			/>
 
 	</ContentPage.Content>
 </ContentPage>

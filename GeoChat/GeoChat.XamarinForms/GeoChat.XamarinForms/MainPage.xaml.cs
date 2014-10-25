@@ -14,7 +14,7 @@ namespace GeoChat.XamarinForms
 
         public void earthChat_Clicked(object sender, EventArgs ea)
 		{
-			this.Navigation.PushAsync (new EarthChat ());
+			this.Navigation.PushAsync (new EarthChat ());	
 
 		}
         public void nearby_Clicked(object sender, EventArgs ea)
