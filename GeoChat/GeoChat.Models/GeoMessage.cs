@@ -8,6 +8,7 @@ namespace GeoChat.Models
         public string Text { get; set; }
         public DateTime DateCreated { get; set; }
         public virtual GeoLocation Location { get; set; }
+        public virtual GeoThread Thread { get; set; } 
 
     }
 }
