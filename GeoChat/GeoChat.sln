@@ -69,6 +69,6 @@ Global
 		{A366AB69-2FDB-4F7F-8133-8ED17C5092E9}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = GeoChat\GeoChat.csproj
+		StartupItem = iOS\GeoChat.iOS.csproj
 	EndGlobalSection
 EndGlobal
