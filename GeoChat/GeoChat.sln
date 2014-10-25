@@ -45,6 +45,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoChat.Models", "GeoChat.Models\GeoChat.Models.csproj", "{B01FD863-F736-4879-9D2B-73FBA6807F9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoChat.Persistance", "GeoChat.Persistance\GeoChat.Persistance.csproj", "{2D235D88-63EA-4616-851D-E068E231B650}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -421,6 +423,38 @@ Global
 		{B01FD863-F736-4879-9D2B-73FBA6807F9B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B01FD863-F736-4879-9D2B-73FBA6807F9B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B01FD863-F736-4879-9D2B-73FBA6807F9B}.Release|x86.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Ad-Hoc|ARM.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Ad-Hoc|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Ad-Hoc|Mixed Platforms.Build.0 = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Ad-Hoc|x86.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.AppStore|ARM.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.AppStore|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.AppStore|Mixed Platforms.Build.0 = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Release|ARM.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2D235D88-63EA-4616-851D-E068E231B650}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -431,6 +465,7 @@ Global
 		{DEE4DBDE-B5EB-4617-B5B8-0CD819233BF6} = {679169C2-6757-4AC1-89E0-59CECA6C3333}
 		{0E914B18-5850-4016-9B02-6F3114FEEE77} = {679169C2-6757-4AC1-89E0-59CECA6C3333}
 		{B01FD863-F736-4879-9D2B-73FBA6807F9B} = {DEE4DBDE-B5EB-4617-B5B8-0CD819233BF6}
+		{2D235D88-63EA-4616-851D-E068E231B650} = {0E914B18-5850-4016-9B02-6F3114FEEE77}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = GeoChat.XamarinForms\GeoChat.XamarinForms.iOS\GeoChat.XamarinForms.iOS.csproj
