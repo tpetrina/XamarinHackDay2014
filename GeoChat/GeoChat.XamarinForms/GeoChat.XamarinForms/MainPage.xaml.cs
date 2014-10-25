@@ -12,11 +12,22 @@ namespace GeoChat.XamarinForms
 		}
 
 
-		public void buttonLogin_Clicked(object sender, EventArgs ea)
+        public void earthChat_Clicked(object sender, EventArgs ea)
 		{
 
 			return;
 		}
+        public void nearby_Clicked(object sender, EventArgs ea)
+        {
+
+            return;
+        }
+
+        public void start_Clicked(object sender, EventArgs ea)
+        {
+
+            return;
+        }
 	}
 }
 

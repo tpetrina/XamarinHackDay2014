@@ -6,89 +6,67 @@
 	xmlns:CustomControl="clr-namespace:GeoChat.XamarinForms;assembly=GeoChat.XamarinForms"
 	>
 
-	<TabbedPage.Children>
+  <TabbedPage.Children>
 
-		<ContentPage Title="Jabbr Login" >
-		  <ContentPage.Padding>
-		    <OnPlatform x:TypeArguments="Thickness"
+    <ContentPage Title ="Greetings earthlings">
+
+      <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
 		                iOS="0, 20, 0, 0" />
-		  </ContentPage.Padding>
+      </ContentPage.Padding>
 
-			<Grid>
-				<Grid.ColumnDefinitions>
-					<ColumnDefinition Width="*"></ColumnDefinition>
-					<ColumnDefinition Width="*"></ColumnDefinition>
-				</Grid.ColumnDefinitions>
+      <Grid>
+        <!--<GridRow.RowDefinition>
+          <RowDefinition Width ="Auto" />
+          <RowDefinition Width ="*" />
+        </GridRow.RowDefinition>-->
 
-				<Grid.RowDefinitions>
-					<RowDefinition></RowDefinition>
-					<RowDefinition></RowDefinition>
-					<RowDefinition></RowDefinition>
-					<RowDefinition></RowDefinition>
-					<RowDefinition></RowDefinition>
-					<RowDefinition></RowDefinition>
-				</Grid.RowDefinitions>
-					
-				<Label 
-					Grid.Row="0" Grid.Column="0"
-					Text="JabbR Server:"
-					>
-				</Label>
-				<Entry
-					Grid.Row="0" Grid.Column="1"
-					x:Name="textBoxJabbRServer"
-					Text="https://jabbr.net"
-					>
-				</Entry>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"></ColumnDefinition>
+          <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
 
-				<Label 
-					Grid.Row="1" Grid.Column="0"
-					Text="Username:"
-					>
-				</Label>
-				<Entry
-					Grid.Row="1" Grid.Column="1"
-					x:Name="textBoxUsername"
-					Placeholder = "Username..."
-					Text="moljac"
-					>
-				</Entry>
+        <Grid.RowDefinitions>
+          <RowDefinition></RowDefinition>
+          <RowDefinition></RowDefinition>
+          <RowDefinition></RowDefinition>
+          <RowDefinition></RowDefinition>
+          <RowDefinition></RowDefinition>
+          <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
 
-				<Label 
-					Grid.Row="2" Grid.Column="0"
-					Text="Password:"
-					>
-				</Label>
-				<Entry
-					Grid.Row="2" Grid.Column="1"
-					x:Name="textBoxPassword"
-					Placeholder = "Password..."
-					IsPassword="true"
-					>
-				</Entry>
+        <!--<Label
+          Grid.Row ="0"
+          Text ="Greetings Earthlings"
+          >
+        </Label>-->
 
+        <Button
+          Grid.Row="0"
+          x:Name ="earthChat"
+          Text ="Earth Chat"
+          Clicked ="earthChat_Clicked"
+          ></Button>
 
-				<Button
-					x:Name="buttonLogin"
-					Grid.Row="3" Grid.Column="1"
-					Text="Login"
-					Clicked="buttonLogin_Clicked"
-					>
-				</Button>
-			</Grid>
+        <Button
+          Grid.Row="1"
+          x:Name ="nearby"
+          Text ="Nearby"
+          Clicked ="nearby_Clicked"
+          >
+        </Button>
+        <Button
+          Grid.Row="2"
+          x:Name ="start"
+          Text ="Start"
+          Clicked ="start_Clicked"
+          >
+        </Button>
 
-		</ContentPage>
+      </Grid>
 
-		<ContentPage Title="Lobby" >
-			<CustomControl:UserControl>
-			</CustomControl:UserControl>
-		</ContentPage>
+    </ContentPage>
 
-		<ContentPage Title="Room: XXXX" >
-			<CustomControl:UserControl>
-			</CustomControl:UserControl>
-		</ContentPage>
-
-	</TabbedPage.Children>
+  </TabbedPage.Children>
 
 </TabbedPage>
