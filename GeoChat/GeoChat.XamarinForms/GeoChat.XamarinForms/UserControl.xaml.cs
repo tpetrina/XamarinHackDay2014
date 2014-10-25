@@ -1,17 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Xamarin.Forms;
 
 namespace GeoChat.XamarinForms
 {
-	public class App
+	public partial class UserControl : ContentView
 	{
-		public static Page GetMainPage()
+		public UserControl ()
 		{
-			return new MainPage();
+			InitializeComponent ();
 		}
 	}
 }
+
